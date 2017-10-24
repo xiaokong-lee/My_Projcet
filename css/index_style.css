@@ -1,0 +1,130 @@
+li{
+    list-style: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav{
+    width: 70px;
+    height: 100%;
+    float: left;
+    background: #222;
+}
+.nav-top{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.nav-top .bt1{
+    padding: 5px;
+}
+nav .no{
+    width: 100%;
+    height: 63%;
+}
+.nav-bottom{
+    width: 100%;
+    height: 100px;
+}
+.nav-bottom .wen,.nav-bottom .index{
+    height: 49px;
+    border-bottom: solid 1px rgba(255,255,255,0.5);
+    border-top: solid 1px rgba(255,255,255,0.5);
+}
+/*.nav-bottom .wen:hover,.nav-bottom .index:hover{*/
+    /*background: rgba(255,255,255,0.3);*/
+/*}*/
+.nav-bottom .wen1{
+    width: 70px;
+    height: 49px;
+    background: url(../images/a5.PNG) no-repeat center  left 50%;
+}
+.nav-bottom .index1{
+    width: 70px;
+    height: 49px;
+    background: url(../images/a6.PNG) no-repeat center  left 50%;
+}
+.main{
+    width: 87%;
+    height: 100%;
+    float: left;
+
+}
+.main .left{
+    width: 88px;
+    height: 100%;
+    padding: 0;
+    margin-top: -16px;
+    background: #333;
+}
+.main .left ul{
+    width: 100%;
+    margin-left: -39px;
+    color: #fff;
+}
+.main .left li{
+    width: 100%;
+    padding-left:20px ;
+    line-height: 100px;
+}
+.main .left li:hover{
+    background: rgba(255,255,255,0.3);
+}
+.right{
+    width: 170px;
+    height: 100%;
+    float: right;
+    background: #333;
+}
+.right .right_top{
+    width: 100%;
+    height: 95px;
+    padding: 10px 0px;
+    background: rgba(255,255,255,0.1);
+}
+.right .right_top span{
+    color: #ffffff;
+    line-height: 85px;
+    float: left;
+    text-align: center;
+    width: 25px;
+}
+.right .right_top image{
+    margin: 15px 0px;
+    /*border: px solid yellow;*/
+}
+.right .bottom_button{
+    width: 100%;
+    position: fixed;
+    bottom:0px;
+}
+.right .bottom_button button{
+    background: #14679e;
+    width: 170px;
+    padding: 10px 5px;
+    border: 1px solid rgba(255,255,255,0.1px) ;
+}
+.right .bottom_button button a{
+    color: #fff ;
+}
+.right .bottom_button button:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    opacity: .1;
+    transition: all 0.4s;
+}
+.right .bottom_button button:hover:after{
+    background: #ffffff;
+    opacity: .2;
+    transition: all 0.4s;
+}
